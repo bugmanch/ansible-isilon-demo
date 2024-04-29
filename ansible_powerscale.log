@@ -1,0 +1,69 @@
+2022-03-22 18:39:40,583 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:39:40,629 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:39:40,989 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:41:30,115 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:41:30,162 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:41:30,537 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:46:17,209 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:46:17,254 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:46:17,647 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:46:18,471 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:46:18,499 filesystem.py INFO : Filesystem ifs/data/share1 status is 404
+2022-03-22 18:46:18,522 filesystem.py INFO : Unable to get Quota details on path ifs/data/share1
+2022-03-22 18:46:18,522 filesystem.py INFO : Creating Filesystem...
+2022-03-22 18:46:18,522 filesystem.py ERROR : owner is required while creating Filesystem
+2022-03-22 18:46:52,902 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:46:52,947 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:46:53,303 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:47:29,696 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:47:29,743 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:47:30,138 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:47:30,953 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:47:30,973 filesystem.py INFO : Filesystem ifs/data/share1 status is 404
+2022-03-22 18:47:30,995 filesystem.py INFO : Unable to get Quota details on path ifs/data/share1
+2022-03-22 18:47:30,995 filesystem.py INFO : Creating Filesystem...
+2022-03-22 18:47:31,030 filesystem.py ERROR : Failed to get the owner id for owner root in zone System and provider local due to error  { errors : [ { code : AEC_NOT_FOUND , message : Failed to find user for 'USER:root': No such user } ] } 
+2022-03-22 18:48:04,732 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:48:04,795 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:48:05,181 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:48:06,001 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:48:06,023 filesystem.py INFO : Filesystem ifs/data/share1 status is 404
+2022-03-22 18:48:06,048 filesystem.py INFO : Unable to get Quota details on path ifs/data/share1
+2022-03-22 18:48:06,048 filesystem.py INFO : Creating Filesystem...
+2022-03-22 18:48:06,083 filesystem.py INFO : Attempting to create new FS ifs/data/share1
+2022-03-22 18:48:06,117 filesystem.py ERROR : Creation of Quota ifs/data/share1 failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The SMARTQUOTAS application is not currently installed. Please contact your Isilon account team for more information on evaluating and purchasing SMARTQUOTAS. } ] } 
+2022-03-22 18:48:58,106 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:48:58,155 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:48:58,539 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:48:59,361 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:48:59,409 filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-22 18:48:59,410 filesystem.py INFO : Determining if Quota is modified...
+2022-03-22 18:48:59,410 filesystem.py INFO : Determining if owner is modified..
+2022-03-22 18:48:59,455 filesystem.py INFO : The user ID fetched from playbook is UID:0 and the user ID on the file is UID:0
+2022-03-22 18:48:59,487 filesystem.py INFO : Getting filesystem details..
+2022-03-22 18:49:10,639 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:49:10,683 info.py INFO : Got Access zones from PowerScale cluster 192.168.1.61
+2022-03-22 18:49:11,078 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:49:11,970 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:49:12,014 filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-22 18:49:12,015 filesystem.py INFO : Determining if Quota is modified...
+2022-03-22 18:49:12,015 filesystem.py INFO : Determining if owner is modified..
+2022-03-22 18:49:12,060 filesystem.py INFO : The user ID fetched from playbook is UID:0 and the user ID on the file is UID:0
+2022-03-22 18:49:12,060 filesystem.py INFO : Getting filesystem details..
+2022-03-22 18:56:06,418 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:56:06,457 info.py ERROR : Get Access zone List for PowerScale cluster: 192.168.1.61 failedwith error:  { errors : [ { code : AEC_FORBIDDEN , message : Privilege check failed. The following read privilege is required: Auth (ISI_PRIV_AUTH) } ] } 
+2022-03-22 18:56:28,395 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:56:28,766 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2022-03-22 18:56:29,646 filesystem.py INFO : Got python SDK instance for provisioning on PowerScale 
+2022-03-22 18:56:29,689 filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-22 18:56:29,689 filesystem.py INFO : Determining if Quota is modified...
+2022-03-22 18:56:29,689 filesystem.py INFO : Determining if owner is modified..
+2022-03-22 18:56:29,710 filesystem.py ERROR : Failed to get the owner id for owner root in zone System and provider file due to error  { errors : [ { code : AEC_FORBIDDEN , message : Privilege check failed. The following read privilege is required: Auth (ISI_PRIV_AUTH) } ] } 
+2023-12-08 17:57:41,371 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2023-12-08 17:57:42,173 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2024-03-14 17:44:59,908 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2024-03-14 17:45:00,891 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2024-03-14 19:14:52,144 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2024-03-14 19:14:53,096 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2024-03-14 19:16:18,384 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-03-14 19:17:16,701 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
