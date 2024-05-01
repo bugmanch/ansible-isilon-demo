@@ -18,7 +18,14 @@ verify_ssl: false
 
 groupnet: "groupnet0"
 subnet: "subnet0"
-ippool: "pool0"
+ippool_mgmt: 
+  name: "pool0"
+  ifaces:
+    lnn:
+      - 1
+      - 2
+      - 3
+    iface: ext-1
 netmask: "255.255.255.0"
 gateway: "192.168.1.1"
 sc_service_addrs_start: "192.168.1.60"
@@ -30,3 +37,10 @@ dns_servers:
 dns_search_suffix:
   - "tbsvlab.lab"
 default_gateway: "192.168.1.1"
+
+az1:
+  name: "zone1"
+  path: "/ifs/data/zone1"
+  az_groupnet: "groupnet0"
+  az_subnet: "subnet0"
+  ip_pool_name: "zone1"

@@ -1,0 +1,12 @@
+--
+
+- name: Create the IP pool
+  dellemc.powerscale.networkpool:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{pscale_password }}"
+    verify_ssl: "{{verify_ssl}}"
+
+    groupnet_name: "{{groupnet}}"
+    subnet_name: "{{subnet}}"        
+    pool_name: "{{ippool}}"

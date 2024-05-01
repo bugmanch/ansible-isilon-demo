@@ -50,5 +50,19 @@
         verify_ssl: "{{verify_ssl}}"
 
         groupnet_name: "{{groupnet}}"
-        subnet_name: "{{subnet}}"        
-        pool_name: "{{ippool}}"
+        subnet_name: "{{subnet}}"
+        pool_name: "{{ippool_mgmt.name}}"
+        ifaces:
+          - iface: "{{ ippool_mgmt.ifaces.iface }}"
+          - lnn: "{{ ippool_mgmt.ifaces.lnn }}"
+        state: "present"
+
+    - name: General cluster config
+      dellemc.powerscale.settings:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{pscale_password }}"
+        verify_ssl: "{{verify_ssl}}"
+        
+        ntp_servers: "{{ ntp_servers }}"
+        state: "present"
