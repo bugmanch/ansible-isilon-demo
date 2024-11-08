@@ -1,12 +1,113 @@
---
+---
 
-- name: Create the IP pool
-  dellemc.powerscale.networkpool:
+- name: Create New Access Zone
+  dellemc.powerscale.accesszone:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{ pscale_password }}"
+    verify_ssl: "{{ verify_ssl }}"
+
+    az_name: "{{ item.az_name }}"
+    path: "{{ item.az_path }}"
+    groupnet: "{{ item.az_groupnet }}"
+    create_path: true
+    provider_state: "add"
+    auth_providers:
+      - provider_name: "System"
+        provider_type: "file"
+      - provider_name: "TBSVLAB.LAB"
+        provider_type: "ads"
+    state: "present"
+
+# - name: Build ifaces variable
+#   set_fact:
+#     ifaces: "{{ ifaces | default ([]) + [{'lnn': item, 'iface': item.az_ippool.ifaces_range.iface }]}}"
+#   loop: "{{ item.az_ippool.ifaces_range.lnn }}"
+
+# - name: check IP pool
+#   dellemc.powerscale.networkpool:
+#     onefs_host: "{{ pscale_host }}"
+#     api_user: "{{ pscale_user }}"
+#     api_password: "{{pscale_password }}"
+#     verify_ssl: "{{ verify_ssl }}"
+
+#     groupnet_name: "{{ az_groupnet }}"
+#     subnet_name: "{{ az_subnet }}"        
+#     pool_name: "{{ az_ippool.name }}"
+#    state: "present"
+
+- name: Add NASADMIN domain group to Local Admin
+  dellemc.powerscale.group:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{ pscale_password }}"
+    verify_ssl: "{{ verify_ssl }}"
+
+    access_zone: "{{ item.az_name }}"
+    group_name: "Administrators"
+    provider_type: "local"
+    users:
+      - user_name: "TBSVLAB\\thomas-a"
+      # - user_name: "TBSVLAB\\nas-admins"
+    user_state: "present-in-group"
+    state: "present"
+  register: group
+
+- name: Debug group
+  ansible.builtin.debug:
+    msg: "Admin group: {{ group }}"
+
+- name: Set Root AZ Quota
+  dellemc.powerscale.smartquota:
     onefs_host: "{{ pscale_host }}"
     api_user: "{{ pscale_user }}"
     api_password: "{{pscale_password }}"
-    verify_ssl: "{{verify_ssl}}"
+    verify_ssl: "{{ verify_ssl }}"
 
-    groupnet_name: "{{groupnet}}"
-    subnet_name: "{{subnet}}"        
-    pool_name: "{{ippool}}"
+    path: "{{ item.az_path }}"
+    quota_type: "directory"
+    quota:
+      advisory_limit_size: "{{ item.az_quota_size }}"
+      cap_unit: "GB"
+      container: true
+    state: "present"
+  when: item.az_create_quota
+
+- name: Create AZ Snapshot Schedule
+  dellemc.powerscale.snapshotschedule:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{pscale_password }}"
+    verify_ssl: "{{ verify_ssl }}"
+
+    path: "{{ item.az_path }}"
+    name: "{{ item.az_name }}_daily"
+    pattern: "{{ item.az_name}}_daily__%Y-%m-%d_%H:%M"
+    desired_retention: 14
+    retention_unit: "days"
+    schedule: "every 1 days at 12:00 PM"
+    state: "present"
+  when: item.az_create_snapshot_schedule
+  
+
+- name: "Create Administrative c$ SMB share"
+  dellemc.powerscale.smb:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{pscale_password }}"
+    verify_ssl: "{{ verify_ssl }}"
+
+    access_zone: "{{ item.az_name }}"
+    share_name: "c$"
+    path: "/"
+    run_as_root:
+      - name: "Administrators"
+        type: "group"
+        provider_type: "local"
+    permissions:
+      - wellknown: "Everyone"
+        permission: "read"
+        permission_type: "allow"
+        state: "absent"
+
+    state: "present"

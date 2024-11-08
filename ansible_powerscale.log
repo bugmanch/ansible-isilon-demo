@@ -67,3 +67,893 @@
 2024-03-14 19:14:53,096 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
 2024-03-14 19:16:18,384 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
 2024-03-14 19:17:16,701 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:34:53,379 connectionpool.py WARNING : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0edaea8b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1/session
+2024-05-01 09:34:53,381 connectionpool.py WARNING : Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0edaea8fa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1/session
+2024-05-01 09:34:53,381 connectionpool.py WARNING : Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0edaea9570>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1/session
+2024-05-01 09:37:23,031 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:37:24,722 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:38:29,968 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:38:31,443 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:39:45,034 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:39:46,458 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:42:09,050 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:42:10,585 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:43:54,362 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:43:56,080 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:44:09,194 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:44:10,721 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:44:55,899 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:44:57,494 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:45:48,232 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:45:49,699 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:48:43,581 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:48:45,149 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:49:38,046 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:49:39,483 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-05-01 09:54:54,238 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-05-01 09:54:56,068 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-05-01 09:54:56,068 powerscale_base.py INFO : Check Mode Flag: False
+2024-05-01 09:54:56,069 settings.py ERROR : Please provide valid value for NTP server
+2024-10-21 11:51:22,953 info.py INFO : Got python SDK instance for provisioning on PowerScale 
+2024-10-21 11:51:23,507 info.py INFO : Got Nodes from PowerScale cluster  192.168.1.61
+2024-10-29 13:14:40,559 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:14:41,688 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:45:33,491 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:45:34,603 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:46:15,138 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:46:16,237 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:47:10,892 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:47:11,973 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:48:19,970 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:48:21,068 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:49:21,469 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:49:22,590 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:52:19,908 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:52:21,059 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:56:50,796 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:56:51,905 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:58:12,448 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 13:58:12,481 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 13:58:49,967 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:58:51,049 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 13:58:52,375 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 13:58:52,408 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 14:05:16,907 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:05:18,020 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:05:18,191 subnet.py ERROR : Modifying subnet subnet0 failed with error:  { errors : [ { code : AEC_FORBIDDEN , field : sc_service_addrs , message : Failed: SmartConnect Basic only supports 2 SmartConnect service IPs.\nReason: The SMARTCONNECT_ADVANCED application is not currently installed. Please contact your Isilon account team for more information on evaluating and purchasing SMARTCONNECT_ADVANCED. } ] } 
+2024-10-29 14:17:28,079 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:17:29,245 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:17:29,391 subnet.py ERROR : Modifying subnet subnet0 failed with error:  { errors : [ { code : AEC_FORBIDDEN , field : sc_service_addrs , message : Failed: SmartConnect Basic only supports 2 SmartConnect service IPs.\nReason: The SMARTCONNECT_ADVANCED application is not currently installed. Please contact your Isilon account team for more information on evaluating and purchasing SMARTCONNECT_ADVANCED. } ] } 
+2024-10-29 14:26:14,943 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:26:16,065 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:26:16,228 subnet.py ERROR : Modifying subnet subnet0 failed with error:  { errors : [ { code : AEC_CONFLICT , message : IP address 192.168.1.61 cannot be used for both IP pool and SmartConnect Service } ] } 
+2024-10-29 14:27:37,512 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:27:38,620 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 14:27:39,800 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 14:27:39,834 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 15:43:15,723 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:43:16,837 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:43:18,021 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 15:43:18,053 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 15:44:27,478 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:44:28,555 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:44:29,763 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 15:44:29,797 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 15:45:51,628 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:45:52,725 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:48:12,975 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:48:14,101 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 15:48:15,309 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 15:48:15,342 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-29 15:55:01,541 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 15:55:02,941 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 16:19:30,389 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 16:19:31,641 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 16:19:32,769 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-10-29 16:19:34,186 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-29 16:19:34,221 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-30 07:23:53,787 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-30 07:23:53,833 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-10-30 07:26:08,507 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-10-30 07:26:08,555 networkpool.py ERROR : Unable to get network pool mgmt failed with error: HTTP Error 401: Unauthorized 
+2024-11-05 16:23:52,196 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-05 16:23:53,867 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 16:23:56,145 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 16:23:57,965 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-05 16:23:58,012 networkpool.py ERROR : Unable to get network pool pool0 failed with error: HTTP Error 401: Unauthorized 
+2024-11-05 16:45:59,455 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 16:46:00,727 accesszone.py INFO : added auth providers to access zone
+2024-11-05 16:46:23,731 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 16:46:24,159 accesszone.py INFO : added auth providers to access zone
+2024-11-05 16:46:25,808 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-05 16:46:25,869 networkpool.py ERROR : Unable to get network pool finance failed with error: HTTP Error 401: Unauthorized 
+2024-11-05 16:46:47,280 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 16:46:47,692 accesszone.py INFO : added auth providers to access zone
+2024-11-05 16:46:49,274 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-05 16:46:49,320 networkpool.py ERROR : Unable to get network pool finance2 failed with error: HTTP Error 401: Unauthorized 
+2024-11-05 18:30:18,083 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-05 18:30:18,499 accesszone.py INFO : added auth providers to access zone
+2024-11-05 18:30:20,093 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-05 18:30:20,140 networkpool.py ERROR : Unable to get network pool finance2 failed with error: HTTP Error 401: Unauthorized 
+2024-11-08 14:41:02,356 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:41:02,790 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:41:04,497 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 14:41:04,546 networkpool.py ERROR : Unable to get network pool finance2 failed with error: HTTP Error 401: Unauthorized 
+2024-11-08 14:42:04,349 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:42:04,769 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:42:06,442 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 14:42:06,491 networkpool.py ERROR : Unable to get network pool finance2 failed with error: HTTP Error 401: Unauthorized 
+2024-11-08 14:43:16,727 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:43:17,140 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:43:18,896 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 14:43:18,944 networkpool.py ERROR : Unable to get network pool finance failed with error: HTTP Error 401: Unauthorized 
+2024-11-08 14:45:53,278 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:45:53,699 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:46:09,322 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:46:09,751 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:46:44,567 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:46:44,953 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:47:24,204 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:47:24,592 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:53:31,592 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:53:32,028 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:54:59,515 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 14:54:59,907 accesszone.py INFO : added auth providers to access zone
+2024-11-08 14:55:01,572 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 14:55:01,678 smartquota.py INFO : Get Quota Details Failed. Quota does not exist.
+2024-11-08 14:55:01,678 smartquota.py INFO : Create a Quota
+2024-11-08 14:55:01,773 smartquota.py INFO : Quota created, {'id': 'cwADAAEAAAAAAAAAAAAAQAIAAAAAAAAA'}
+2024-11-08 15:01:37,238 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 15:01:37,647 accesszone.py INFO : added auth providers to access zone
+2024-11-08 15:02:16,544 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 15:02:16,941 accesszone.py INFO : added auth providers to access zone
+2024-11-08 15:07:22,776 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 15:07:23,186 accesszone.py INFO : added auth providers to access zone
+2024-11-08 15:07:24,814 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:38:31,486 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:38:31,920 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:38:33,589 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:39:26,681 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:39:27,092 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:39:28,695 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:39:45,589 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:39:46,037 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:39:47,801 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:39:49,495 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:39:49,668 snapshotschedule.py ERROR : Modification of path of snapshot schedule is not allowed through Ansible Module.
+2024-11-08 16:41:02,389 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:41:02,870 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:41:04,554 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:41:06,325 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:41:06,492 snapshotschedule.py ERROR : Modification of path of snapshot schedule is not allowed through Ansible Module.
+2024-11-08 16:41:19,011 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:41:19,456 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:41:21,105 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:41:22,844 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:41:22,968 snapshotschedule.py INFO : Snapshot schedule finance_daily details are not found
+2024-11-08 16:43:18,434 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:43:18,838 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:43:20,612 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:43:22,317 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:43:22,427 snapshotschedule.py INFO : Snapshot schedule finance_daily details are not found
+2024-11-08 16:43:24,217 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:43:24,329 accesszone.py INFO : Access zone nas1 details are not found
+2024-11-08 16:43:31,797 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:43:33,392 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:43:33,500 smartquota.py INFO : Get Quota Details Failed. Quota does not exist.
+2024-11-08 16:43:33,500 smartquota.py INFO : Create a Quota
+2024-11-08 16:43:33,572 smartquota.py INFO : Quota created, {'id': 'NAdgAwEAAAAAAAAAAAAAQAMAAAAAAAAA'}
+2024-11-08 16:43:35,131 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:43:35,237 snapshotschedule.py INFO : Snapshot schedule nas1_daily details are not found
+2024-11-08 16:47:34,021 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:47:34,431 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:47:35,993 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:47:37,665 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:47:39,278 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:47:41,034 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:47:42,562 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 16:47:44,060 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 16:57:35,906 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:57:36,334 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:58:20,380 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:58:20,814 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:58:22,486 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:59:01,400 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:59:01,841 accesszone.py INFO : added auth providers to access zone
+2024-11-08 16:59:03,402 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:59:03,402 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 16:59:03,524 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 16:59:03,524 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 16:59:03,591 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 16:59:03,591 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 16:59:03,634 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 16:59:03,634 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 16:59:03,635 group.py INFO : Adding user USER:TBSVLAB	homas-a to group GROUP:Administrators
+2024-11-08 16:59:03,680 group.py ERROR : Add user USER:TBSVLAB	homas-a to group failed with  errors : code : AEC NOT FOUND , message : Failed to create persona USER:TBSVLAB thomas a  
+2024-11-08 16:59:46,935 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 16:59:47,365 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:00:58,315 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:00:58,751 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:01:00,532 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:01:00,533 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:01:00,650 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:01:00,650 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:01:00,685 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:01:00,686 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:01:00,718 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:01:00,718 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:01:00,753 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:01:02,423 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:01:04,233 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:01:06,762 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:01:06,763 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:01:06,763 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:01:06,869 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:01:06,919 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:01:06,919 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/finance', 'permissions': [], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 2}]}
+2024-11-08 17:01:06,920 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:01:38,515 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:01:38,973 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:01:40,512 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:01:40,512 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:01:40,626 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:01:40,627 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:01:40,658 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:01:40,658 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:01:40,691 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:01:40,691 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:01:40,691 group.py INFO : Adding user USER:TBSVLAB\thomas-a to group GROUP:Administrators
+2024-11-08 17:01:40,935 group.py INFO : {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105'}
+2024-11-08 17:01:40,936 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:01:40,970 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:01:40,971 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:01:40,971 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:01:40,971 group.py INFO : Adding user USER:TBSVLAB\nas-admins to group GROUP:Administrators
+2024-11-08 17:01:41,010 group.py ERROR : Add user USER:TBSVLAB\nas-admins to group failed with  errors : code : AEC NOT FOUND , message : Failed to create persona USER:TBSVLAB nas admins  
+2024-11-08 17:02:22,839 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:02:23,291 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:02:25,024 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:02:25,025 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:02:25,151 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:02:25,152 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:02:25,199 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:02:25,199 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:02:25,239 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:02:25,239 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:02:25,239 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:02:25,239 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:02:25,278 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:02:25,278 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:02:25,313 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:02:27,034 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:02:28,710 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:02:30,681 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:02:30,682 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:02:30,682 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:02:30,779 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:02:30,820 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:02:30,820 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/finance', 'permissions': [], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 2}]}
+2024-11-08 17:02:30,820 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:04:01,107 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:04:01,523 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:04:03,183 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:04:03,184 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:04:03,297 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:04:03,297 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:03,335 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:04:03,335 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:03,374 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:04:03,375 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:04:03,375 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:04:03,375 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:04:03,407 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:04:03,407 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:03,440 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:04:05,219 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:04:05,346 smartquota.py INFO : Get Quota Details Failed. Quota does not exist.
+2024-11-08 17:04:05,346 smartquota.py INFO : Create a Quota
+2024-11-08 17:04:05,417 smartquota.py INFO : Quota created, {'id': 'CAAkAAEAAAAAAAAAAAAAQAQAAAAAAAAA'}
+2024-11-08 17:04:07,133 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:04:07,305 snapshotschedule.py ERROR : Modification of path of snapshot schedule is not allowed through Ansible Module.
+2024-11-08 17:04:56,396 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:04:56,827 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:04:58,453 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:04:58,453 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:04:58,567 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:04:58,567 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:58,600 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:04:58,601 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:58,633 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:04:58,633 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:04:58,633 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:04:58,633 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:04:58,665 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:04:58,665 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:04:58,698 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:05:00,441 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:05:02,226 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:05:02,344 snapshotschedule.py INFO : Snapshot schedule finance_daily details are not found
+2024-11-08 17:05:04,684 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:05:04,685 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:05:04,685 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:05:04,786 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:05:04,833 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:05:04,833 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/finance', 'permissions': [], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 2}]}
+2024-11-08 17:05:04,834 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:06:28,760 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:06:29,186 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:06:30,795 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:06:30,795 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:06:30,922 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:06:30,922 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:06:30,961 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:06:30,961 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:06:30,996 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:06:30,996 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:06:30,996 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:06:30,996 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:06:31,031 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:06:31,031 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:06:31,075 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:06:32,738 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:06:34,406 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:06:36,361 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:06:36,362 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:06:36,363 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:06:36,470 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:06:36,518 smb.py INFO : SMB Share c$ status is 404
+2024-11-08 17:06:36,518 smb.py INFO : SMB Details with unmodified mode/mask bits : None
+2024-11-08 17:06:36,518 smb.py INFO : Creating a new SMB share c$
+2024-11-08 17:06:36,518 smb.py INFO : Attempting to create new SMB share c$
+2024-11-08 17:06:36,518 smb.py INFO : create new SMB , Permissions Object : None
+2024-11-08 17:06:36,519 auth.py INFO : Getting group details.
+2024-11-08 17:06:37,242 smb.py ERROR : Failed to create SMB share c$ with error:  { errors : [ { code : AEC_NOT_FOUND , message : Path '/ifs/data/finance/ifs/data/finance' not found: No such file or directory } ] } 
+2024-11-08 17:07:24,168 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:07:24,643 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:07:26,360 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:07:26,361 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:07:26,472 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:07:26,473 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:26,509 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:07:26,509 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:26,544 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:07:26,544 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:07:26,544 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:07:26,544 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:07:26,576 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:07:26,576 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:26,609 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:07:28,301 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:07:29,975 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:07:31,938 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:07:31,938 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:07:31,939 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:07:32,044 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:07:32,079 smb.py INFO : SMB Share c$ status is 404
+2024-11-08 17:07:32,080 smb.py INFO : SMB Details with unmodified mode/mask bits : None
+2024-11-08 17:07:32,080 smb.py INFO : Creating a new SMB share c$
+2024-11-08 17:07:32,080 smb.py INFO : Attempting to create new SMB share c$
+2024-11-08 17:07:32,080 smb.py INFO : create new SMB , Permissions Object : None
+2024-11-08 17:07:32,080 auth.py INFO : Getting group details.
+2024-11-08 17:07:32,815 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:07:32,816 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:07:32,816 auth.py INFO : Getting group details.
+2024-11-08 17:07:34,277 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:07:34,710 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:07:36,162 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:07:36,163 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:07:36,271 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:nas1',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:07:36,271 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:36,313 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:07:36,313 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:36,345 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}]
+2024-11-08 17:07:36,345 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:07:36,346 group.py INFO : Adding user USER:TBSVLAB\thomas-a to group GROUP:Administrators
+2024-11-08 17:07:36,523 group.py INFO : {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105'}
+2024-11-08 17:07:36,523 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:07:36,563 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:nas1',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:07:36,563 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:07:36,597 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:07:38,029 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:07:39,588 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:07:41,302 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:07:41,303 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:07:41,303 zones_summary.py INFO : Getting zone base path for nas1 access zone
+2024-11-08 17:07:41,405 zones_summary.py INFO : Zone base path is: /ifs/data/nas1
+2024-11-08 17:07:41,439 smb.py INFO : SMB Share c$ status is 404
+2024-11-08 17:07:41,440 smb.py INFO : SMB Details with unmodified mode/mask bits : None
+2024-11-08 17:07:41,440 smb.py INFO : Creating a new SMB share c$
+2024-11-08 17:07:41,440 smb.py INFO : Attempting to create new SMB share c$
+2024-11-08 17:07:41,440 smb.py INFO : create new SMB , Permissions Object : None
+2024-11-08 17:07:41,441 auth.py INFO : Getting group details.
+2024-11-08 17:07:42,158 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:07:42,158 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:07:42,158 auth.py INFO : Getting group details.
+2024-11-08 17:12:51,484 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:12:51,939 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:12:53,563 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:12:53,564 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:12:53,680 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:12:53,680 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:12:53,719 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:12:53,719 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:12:53,757 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:12:53,757 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:12:53,757 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:12:53,757 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:12:53,791 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:12:53,792 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:12:53,824 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:12:55,405 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:12:57,125 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:13:46,952 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:13:47,388 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:13:49,045 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:13:49,046 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:13:49,157 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:13:49,157 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:13:49,190 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:13:49,190 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:13:49,223 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:13:49,223 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:13:49,223 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:13:49,223 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:13:49,257 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:13:49,257 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:13:49,290 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:13:51,088 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:13:52,882 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:13:54,769 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:13:54,770 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:13:54,771 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:13:54,888 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:13:54,888 smb.py INFO : Default provider_type added to permission: [{'wellknown': 'Everyone', 'state': 'absent'}]
+2024-11-08 17:13:54,937 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:13:54,937 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/finance/', 'permissions': [{'permission': 'read', 'permission_type': 'allow', 'trustee': {'id': 'SID:S-1-1-0', 'name': 'Everyone', 'type': 'wellknown'}}], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 2}]}
+2024-11-08 17:13:54,937 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:13:54,938 smb.py INFO : Checking if permission is modified
+2024-11-08 17:13:54,938 smb.py INFO : Creating Permission Dictionary
+2024-11-08 17:13:54,938 smb.py INFO : smb_permissions_dict created, user: {} , group: {}, wellknown: {'everyone': {'permission_type': 'allow', 'permission': 'read'}} 
+2024-11-08 17:13:54,938 smb.py ERROR : Failed to validate if permission modified with error 'permission'
+2024-11-08 17:16:02,661 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:16:03,073 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:16:04,678 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:16:04,679 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:16:04,797 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:16:04,797 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:04,847 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:04,847 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:04,890 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:04,890 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:16:04,890 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:16:04,890 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:16:04,924 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:finance',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:16:04,925 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:04,959 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:06,752 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:16:08,549 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:16:10,531 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:16:10,532 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:16:10,532 zones_summary.py INFO : Getting zone base path for finance access zone
+2024-11-08 17:16:10,636 zones_summary.py INFO : Zone base path is: /ifs/data/finance
+2024-11-08 17:16:10,636 smb.py INFO : Default provider_type added to permission: [{'wellknown': 'Everyone', 'permission': 'read', 'permission_type': 'allow', 'state': 'absent'}]
+2024-11-08 17:16:10,683 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:16:10,683 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/finance/', 'permissions': [{'permission': 'read', 'permission_type': 'allow', 'trustee': {'id': 'SID:S-1-1-0', 'name': 'Everyone', 'type': 'wellknown'}}], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 2}]}
+2024-11-08 17:16:10,683 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:16:10,683 smb.py INFO : Checking if permission is modified
+2024-11-08 17:16:10,683 smb.py INFO : Creating Permission Dictionary
+2024-11-08 17:16:10,683 smb.py INFO : smb_permissions_dict created, user: {} , group: {}, wellknown: {'everyone': {'permission_type': 'allow', 'permission': 'read'}} 
+2024-11-08 17:16:10,683 auth.py INFO : Getting group details.
+2024-11-08 17:16:12,182 accesszone.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:16:12,638 accesszone.py INFO : added auth providers to access zone
+2024-11-08 17:16:14,007 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-08 17:16:14,008 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:16:14,128 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:nas1',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:16:14,129 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:14,164 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:14,164 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:14,202 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:14,202 group.py INFO : user_details['name'] TBSVLAB\domain admins
+2024-11-08 17:16:14,202 group.py INFO : user_details['name'] TBSVLAB\thomas-a
+2024-11-08 17:16:14,202 group.py INFO : Getting Details of group GROUP:Administrators 
+2024-11-08 17:16:14,238 group.py INFO : Group Details: {'groups': [{'dn': 'CN=Administrators,CN=Builtin,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'BUILTIN',
+             'generated_gid': False,
+             'gid': {'id': 'GID:1544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'id': 'Administrators',
+             'member_of': None,
+             'name': 'Administrators',
+             'object_history': [],
+             'provider': 'lsa-local-provider:nas1',
+             'sam_account_name': 'Administrators',
+             'sid': {'id': 'SID:S-1-5-32-544',
+                     'name': 'Administrators',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-11-08 17:16:14,239 group.py INFO : Getting members of group GROUP:Administrators
+2024-11-08 17:16:14,274 group.py INFO : Group Members: [{'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-512', 'name': 'TBSVLAB\\domain admins', 'type': 'group'}, {'id': 'SID:S-1-5-21-3090972137-1525610697-570700328-1105', 'name': 'TBSVLAB\\thomas-a', 'type': 'user'}]
+2024-11-08 17:16:15,844 smartquota.py INFO : Got the isi_sdk instance for Smart Quota Operations
+2024-11-08 17:16:17,391 snapshotschedule.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:16:19,171 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-08 17:16:19,171 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-08 17:16:19,172 zones_summary.py INFO : Getting zone base path for nas1 access zone
+2024-11-08 17:16:19,275 zones_summary.py INFO : Zone base path is: /ifs/data/nas1
+2024-11-08 17:16:19,276 smb.py INFO : Default provider_type added to permission: [{'wellknown': 'Everyone', 'permission': 'read', 'permission_type': 'allow', 'state': 'absent'}]
+2024-11-08 17:16:19,319 smb.py INFO : Successfully got SMB details for c$
+2024-11-08 17:16:19,319 smb.py INFO : SMB Details with unmodified mode/mask bits : {'shares': [{'access_based_enumeration': False, 'access_based_enumeration_root_only': False, 'allow_delete_readonly': False, 'allow_execute_always': False, 'allow_variable_expansion': False, 'auto_create_directory': False, 'browsable': True, 'ca_timeout': 120, 'ca_write_integrity': 'write-read-coherent', 'change_notify': 'norecurse', 'continuously_available': False, 'create_permissions': 'default acl', 'csc_policy': 'manual', 'description': '', 'directory_create_mask': 448, 'directory_create_mode': 0, 'file_create_mask': 448, 'file_create_mode': 64, 'file_filter_extensions': [], 'file_filter_type': 'deny', 'file_filtering_enabled': False, 'hide_dot_files': False, 'host_acl': [], 'id': 'c$', 'impersonate_guest': 'never', 'impersonate_user': '', 'inheritable_path_acl': False, 'mangle_byte_start': 60672, 'mangle_map': ['0x01-0x1F:-1', '0x22:-1', '0x2A:-1', '0x3A:-1', '0x3C:-1', '0x3E:-1', '0x3F:-1', '0x5C:-1'], 'name': 'c$', 'ntfs_acl_support': True, 'oplocks': True, 'path': '/ifs/data/nas1/', 'permissions': [{'permission': 'read', 'permission_type': 'allow', 'trustee': {'id': 'SID:S-1-1-0', 'name': 'Everyone', 'type': 'wellknown'}}], 'run_as_root': [{'id': 'SID:S-1-5-32-544', 'name': 'Administrators', 'type': 'group'}], 'smb3_encryption_enabled': False, 'sparse_file': False, 'strict_ca_lockout': True, 'strict_flush': True, 'strict_locking': False, 'zid': 3}]}
+2024-11-08 17:16:19,319 smb.py INFO : Creating SMB Dictionary
+2024-11-08 17:16:19,319 smb.py INFO : Checking if permission is modified
+2024-11-08 17:16:19,319 smb.py INFO : Creating Permission Dictionary
+2024-11-08 17:16:19,319 smb.py INFO : smb_permissions_dict created, user: {} , group: {}, wellknown: {'everyone': {'permission_type': 'allow', 'permission': 'read'}} 
+2024-11-08 17:16:19,320 auth.py INFO : Getting group details.
