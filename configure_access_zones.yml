@@ -1,0 +1,14 @@
+---
+
+- name: Isilon Access Zones Configuration
+  gather_facts: false
+  hosts: localhost
+  vars:
+  collections:
+  - dellemc.powerscale
+
+  tasks:
+    - name: Configure Access Zone
+      include_role:
+        name: create_az
+      loop: "{{ my_access_zones }}"

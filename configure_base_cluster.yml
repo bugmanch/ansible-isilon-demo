@@ -1,0 +1,100 @@
+---
+
+- name: Isilon Base Configuration
+  gather_facts: false
+  hosts: localhost
+  vars:
+  collections:
+  - dellemc.powerscale
+
+  tasks:
+    # Missing: add Evaluation licences
+    # Please, do it manually with following OneFS CLI command:
+    # isi license add --evaluation Smartconnect_advanced --evaluation Smartpools --evaluation SnapshotIQ --evaluation SyncIQ --evaluation Smartquotas 
+
+    - name: Enable SBR
+      dellemc.powerscale.networksettings:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        enable_source_routing: true
+        state: "present"
+
+
+    - name: Configure Management Groupnet
+      dellemc.powerscale.groupnet:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        groupnet_name: "{{groupnet0.name}}"
+        dns_servers: "{{groupnet0.dns_servers}}"
+        dns_server_state: "add"
+        dns_search_suffix: "{{groupnet0.dns_search_suffix}}"
+        dns_search_suffix_state: "add"
+        state: "present"
+
+    - name: Configure Management Subnet
+      dellemc.powerscale.subnet:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        groupnet_name: "{{ groupnet0.name }}"
+        subnet_name: "{{ subnet0.name }}"
+        netmask: "{{ subnet0.netmask }}"
+        subnet_params:
+          gateway: "{{ subnet0.gateway }}"
+          vlan_enabled: false
+          mtu: 1500
+          sc_service_addrs: 
+            - start_range: "{{ subnet0.sc_service_addrs_start }}"
+              end_range: "{{ subnet0.sc_service_addrs_end }}"
+          sc_service_addrs_state: "add"
+        state: "present"
+
+    - name: Build ifaces variable
+      set_fact:
+        ifaces: "{{ ifaces | default ([]) + [{'lnn': item, 'iface': ippool_mgmt.ifaces_range.iface }]}}"
+      loop: "{{ ippool_mgmt.ifaces_range.lnn }}"
+
+    - name: Configure Management IP Pool
+      dellemc.powerscale.networkpool:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        groupnet_name: "{{ groupnet0.name }}"
+        subnet_name: "{{ subnet0.name }}"
+        pool_name: "{{ ippool_mgmt.name }}"
+        state: "present"
+        # additional_pool_params:
+        #   ranges: "{{ ippool_mgmt.ranges }}"
+        #   ifaces: "{{ ifaces }}"
+        #   iface_state: "add"
+        
+    - name: Configure NTP Sources
+      dellemc.powerscale.settings:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+        
+        ntp_servers: "{{ ntp_servers }}"
+        state: "present"
+
+    - name: Configure Active Directory integration
+      dellemc.powerscale.ads:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{ pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        domain_name: "{{ ad_domain_name }}"
+        ads_user: "{{ ad_domain_adminname }}"
+        ads_password: "{{ ad_domain_adminpassword}}"
