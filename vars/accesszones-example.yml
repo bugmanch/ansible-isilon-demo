@@ -1,0 +1,46 @@
+---
+
+# The my_access_zones variable below contains a list of all the Access Zones I want to be defined in my cluster.
+
+my_access_zones:
+  - finance:
+    az_name: "finance"
+    az_path: "/ifs/data/finance"
+    az_groupnet: "groupnet0"
+    az_subnet: "subnet0"
+    az_ippool: 
+      name: "finance"
+      ifaces_range:
+        lnn: "{{ range(1 , 3 + 1) }}"
+        iface: ext-1
+      ip_ranges:
+        - low: "192.168.1.71"
+          high: "192.168.1.73"
+
+    # The Quota size for the Access Zone, in GiB
+    az_quota_size: 10
+
+    az_create_quota: true
+    az_create_snapshot_schedule: true
+    az_create_replication: false
+
+  - nas1:
+    az_name: "nas1"
+    az_path: "/ifs/data/nas1"
+    az_groupnet: "groupnet0"
+    az_subnet: "subnet0"
+    az_ippool: 
+      name: "nas1"
+      ifaces_range:
+        lnn: "{{ range(1 , 3 + 1) }}"
+        iface: ext-1
+      ip_ranges:
+        - low: "192.168.1.81"
+          high: "192.168.1.83"
+
+    # The Quota size for the Access Zone, in GiB
+    az_quota_size: 10
+
+    az_create_quota: true
+    az_create_snapshot_schedule: true
+    az_create_replication: false

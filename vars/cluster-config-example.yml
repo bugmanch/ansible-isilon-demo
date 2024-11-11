@@ -1,0 +1,40 @@
+---
+
+# Global cluster credentials
+pscale_host: "192.168.1.61"
+pscale_user: "root" 
+pscale_portno: 8080
+pscale_password: "Your valuted password goes here"
+verify_ssl: false
+
+# Network configuration
+
+groupnet0:
+  name: "groupnet0"
+  dns_servers:
+    - "192.168.1.10"
+  dns_search_suffix:
+    - "tbsvlab.lab"
+
+subnet0:
+  name: "subnet0"
+  netmask: "255.255.255.0"
+  gateway: "192.168.1.1"
+  sc_service_addrs_start: "192.168.1.60"
+  sc_service_addrs_end: "192.168.1.60"
+
+ippool_mgmt: 
+  name: "pool0"
+  # Using an Ansible range function, we will format the table how it is used by the IPPool
+  ifaces_range:
+    lnn: "{{ range(1 , 3 + 1) }}"
+    iface: ext-1
+  ranges:
+    - low: "192.168.1.61"
+      high: "192.168.1.63"
+ntp_servers:
+  - "192.168.1.1"
+
+ad_domain_name: "tbsvlab.lab"
+ad_domain_adminname: "administrator"
+ad_domain_adminpassword: # Using an Ansible range function, we will format the table how it is used by the IPPool
