@@ -73,10 +73,10 @@
         subnet_name: "{{ subnet0.name }}"
         pool_name: "{{ ippool_mgmt.name }}"
         state: "present"
-        # additional_pool_params:
-        #   ranges: "{{ ippool_mgmt.ranges }}"
-        #   ifaces: "{{ ifaces }}"
-        #   iface_state: "add"
+        additional_pool_params:
+          ranges: "{{ ippool_mgmt.ranges }}"
+          ifaces: "{{ ifaces }}"
+          iface_state: "add"
         
     - name: Configure NTP Sources
       dellemc.powerscale.settings:

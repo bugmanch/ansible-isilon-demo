@@ -19,22 +19,22 @@
         provider_type: "ads"
     state: "present"
 
-# - name: Build ifaces variable
-#   set_fact:
-#     ifaces: "{{ ifaces | default ([]) + [{'lnn': item, 'iface': item.az_ippool.ifaces_range.iface }]}}"
-#   loop: "{{ item.az_ippool.ifaces_range.lnn }}"
+- name: Build ifaces variable
+  set_fact:
+    ifaces: "{{ ifaces | default ([]) + [{'lnn': item, 'iface': item.az_ippool.ifaces_range.iface }]}}"
+  loop: "{{ item.az_ippool.ifaces_range.lnn }}"
 
-# - name: check IP pool
-#   dellemc.powerscale.networkpool:
-#     onefs_host: "{{ pscale_host }}"
-#     api_user: "{{ pscale_user }}"
-#     api_password: "{{pscale_password }}"
-#     verify_ssl: "{{ verify_ssl }}"
+- name: check IP pool
+  dellemc.powerscale.networkpool:
+    onefs_host: "{{ pscale_host }}"
+    api_user: "{{ pscale_user }}"
+    api_password: "{{pscale_password }}"
+    verify_ssl: "{{ verify_ssl }}"
 
-#     groupnet_name: "{{ az_groupnet }}"
-#     subnet_name: "{{ az_subnet }}"        
-#     pool_name: "{{ az_ippool.name }}"
-#    state: "present"
+    groupnet_name: "{{ az_groupnet }}"
+    subnet_name: "{{ az_subnet }}"        
+    pool_name: "{{ az_ippool.name }}"
+   state: "present"
 
 - name: Add NASADMIN domain group to Local Admin
   dellemc.powerscale.group:
@@ -48,7 +48,10 @@
     provider_type: "local"
     users:
       - user_name: "TBSVLAB\\thomas-a"
-      # - user_name: "TBSVLAB\\nas-admins"
+      # Looks like adding a domain group to a local group isn't implemented yet...
+      #- user_name: "TBSVLAB\\nas-admins"
+    groups:
+      - group_name: "TBSVLAB\\nas-admins"
     user_state: "present-in-group"
     state: "present"
   register: group

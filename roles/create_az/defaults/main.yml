@@ -2,5 +2,5 @@
 
 az_create_quota: true
 
-az_create_snapshot_schedule: false
+az_create_snapshot_schedule: true
 az_create_replication: false
