@@ -9,7 +9,6 @@
 This is a repository of Ansible playbooks which aims to demonstrate the utilization of Ansible for orchestrating and automating Dell Powerscale NAS scale-out system.
 
 
-
 ### Configure Base Cluster
 Sets all base settings for a Powerscale cluster. I use it when I need to rebuild my lab:
 
@@ -17,6 +16,9 @@ Sets all base settings for a Powerscale cluster. I use it when I need to rebuild
 - Configure external network (groupnet, subnet, Management ippool)
 - Configure NTP sources
 - Joins Active Directory
+- Creates a local NAS_Admin group, then create a custom Administrator role for that group.
+
+Currently, Ansible for Powerscale is not able to include a group in a local group, so we can't add the Domain Admins group to the local administrator group, for instance. This must still be done manually.
 
 
 ### Configue Access Zones

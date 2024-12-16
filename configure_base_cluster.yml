@@ -126,7 +126,7 @@
         privileges:
         - name: "Antivirus"
           permission: "w"
-          state: "present"
+          state: "absent"
         - name: "Audit"
           permission: "w"
           state: "present"

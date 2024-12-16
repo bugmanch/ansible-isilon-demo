@@ -34,7 +34,7 @@
     groupnet_name: "{{ az_groupnet }}"
     subnet_name: "{{ az_subnet }}"        
     pool_name: "{{ az_ippool.name }}"
-   state: "present"
+    state: "present"
 
 - name: Add NASADMIN domain group to Local Admin
   dellemc.powerscale.group:
