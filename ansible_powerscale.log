@@ -1186,3 +1186,330 @@
 2024-11-15 16:09:33,832 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
 2024-11-15 16:09:35,875 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
 2024-11-15 16:09:35,875 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-18 16:01:45,742 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:01:47,545 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-18 16:01:49,318 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-18 16:01:51,149 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:01:53,067 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:01:53,068 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-18 16:04:15,122 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:04:16,872 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-18 16:04:18,505 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-11-18 16:04:20,345 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:04:22,063 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-11-18 16:04:22,064 powerscale_base.py INFO : Check Mode Flag: False
+2024-11-18 16:04:23,826 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:00,848 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:02,742 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:04,559 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:06,406 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:08,382 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:08,383 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:19:10,437 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:12,734 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:12,735 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:19:12,954 group.py INFO : Get Group Details GID:2222 failed with  errors : code : AEC NOT FOUND , message : Failed to find group for GID: : No such group 
+2024-12-16 10:19:12,954 group.py INFO : Create a Group NAS_Admins 
+2024-12-16 10:19:12,954 group.py INFO : Creating Group NAS_Admins
+2024-12-16 10:19:13,426 group.py INFO : The group is created with id: {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003'}
+2024-12-16 10:19:13,426 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:19:13,494 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:19:13,495 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:19:13,577 group.py INFO : Group Members: []
+2024-12-16 10:19:51,162 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:53,006 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:54,778 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:19:56,702 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:58,657 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:19:58,657 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:20:00,666 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:02,988 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:02,988 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:20:03,253 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:20:03,254 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:20:03,365 group.py INFO : Group Members: []
+2024-12-16 10:20:03,365 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:20:03,437 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:20:03,438 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:20:03,499 group.py INFO : Group Members: []
+2024-12-16 10:20:05,131 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:20:05,131 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:20:05,132 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 10:20:05,309 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 10:20:05,309 auth.py INFO : Getting group details.
+2024-12-16 10:20:05,369 auth.py ERROR : Failed to get the group details for group NAS Admin group in zone System and provider local due to error  { errors : [ { code : AEC_NOT_FOUND , message : Failed to find group for 'GROUP:NAS Admin group': No such group } ] } 
+2024-12-16 10:20:34,640 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:20:36,449 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:38,148 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:39,979 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:20:41,810 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:20:41,811 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:20:44,295 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:46,780 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:20:46,782 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:20:46,967 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:20:46,968 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:20:47,019 group.py INFO : Group Members: []
+2024-12-16 10:20:47,019 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:20:47,075 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:20:47,076 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:20:47,129 group.py INFO : Group Members: []
+2024-12-16 10:20:48,865 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:20:48,866 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:20:48,867 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 10:20:49,088 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 10:20:49,088 auth.py INFO : Getting group details.
+2024-12-16 10:20:49,189 role.py ERROR : Privilege ISI_PRIV_LOGIN_CONSOLE is either invalid or cannot be added to role in non-System access zone.
+2024-12-16 10:21:55,476 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:21:57,230 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:21:58,954 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:22:00,906 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:22:03,090 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:22:03,091 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:22:05,218 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:22:07,583 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 10:22:07,584 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:22:07,737 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:22:07,737 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:22:07,793 group.py INFO : Group Members: []
+2024-12-16 10:22:07,793 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 10:22:07,843 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 10:22:07,843 group.py INFO : Getting members of group GID:2222
+2024-12-16 10:22:07,898 group.py INFO : Group Members: []
+2024-12-16 10:22:09,618 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 10:22:09,619 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 10:22:09,619 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 10:22:09,781 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 10:22:09,782 auth.py INFO : Getting group details.
+2024-12-16 10:22:09,894 role.py ERROR : Privilege ISI_PRIV_LOGIN_PAPI is either invalid or cannot be added to role in non-System access zone.
+2024-12-16 14:33:27,722 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:33:29,474 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:33:31,421 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:33:33,373 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:33:35,351 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:33:35,352 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:33:37,349 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:33:39,622 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:33:39,623 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 14:33:39,773 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 14:33:39,773 group.py INFO : Getting members of group GID:2222
+2024-12-16 14:33:39,820 group.py INFO : Group Members: []
+2024-12-16 14:33:39,820 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 14:33:39,882 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 14:33:39,882 group.py INFO : Getting members of group GID:2222
+2024-12-16 14:33:39,931 group.py INFO : Group Members: []
+2024-12-16 14:33:41,607 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:33:41,608 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:33:41,608 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:33:41,768 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:33:41,768 auth.py INFO : Getting group details.
+2024-12-16 14:33:44,638 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_BACKUP', 'name': 'Backup', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI_BYPASS_MFA', 'name': 'MFA API bypass Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_RECOVERY_SHELL', 'name': 'Recovery Shell', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_RESTORE', 'name': 'Restore', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SWIFT', 'name': 'Swift', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:33:44,690 role.py ERROR : Create role with failed with error:  { errors : [ { code : AEC_BAD_REQUEST , message : Privilege 'ISI_PRIV_IFS_BACKUP' may not be set to write' } ] } 
+2024-12-16 14:34:13,210 networksettings.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:34:15,077 groupnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:34:16,849 subnet.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:34:18,836 networkpool.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:34:20,978 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:34:20,979 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:34:23,080 ads.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:34:25,283 group.py INFO : Got the isi_sdk instance for authorization on to PowerScale
+2024-12-16 14:34:25,284 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 14:34:25,442 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 14:34:25,442 group.py INFO : Getting members of group GID:2222
+2024-12-16 14:34:25,493 group.py INFO : Group Members: []
+2024-12-16 14:34:25,493 group.py INFO : Getting Details of group GID:2222 
+2024-12-16 14:34:25,539 group.py INFO : Group Details: {'groups': [{'dn': 'CN=NAS_Admins,CN=Groups,DC=TBS-ISILONA',
+             'dns_domain': None,
+             'domain': 'TBS-ISILONA',
+             'generated_gid': False,
+             'gid': {'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'},
+             'id': 'NAS_Admins',
+             'member_of': None,
+             'name': 'NAS_Admins',
+             'object_history': [],
+             'provider': 'lsa-local-provider:System',
+             'sam_account_name': 'NAS_Admins',
+             'sid': {'id': 'SID:S-1-5-21-1164194851-1498128888-2404047752-1003',
+                     'name': 'NAS_Admins',
+                     'type': 'group'},
+             'type': 'group'}]}
+2024-12-16 14:34:25,539 group.py INFO : Getting members of group GID:2222
+2024-12-16 14:34:25,599 group.py INFO : Group Members: []
+2024-12-16 14:34:27,235 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:34:27,236 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:34:27,237 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:34:27,394 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:34:27,395 auth.py INFO : Getting group details.
+2024-12-16 14:34:30,200 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI_BYPASS_MFA', 'name': 'MFA API bypass Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_RECOVERY_SHELL', 'name': 'Recovery Shell', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_RESTORE', 'name': 'Restore', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SWIFT', 'name': 'Swift', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:34:30,258 role.py ERROR : Create role with failed with error:  { errors : [ { code : AEC_BAD_REQUEST , message : Privilege 'ISI_PRIV_LOGIN_PAPI_BYPASS_MFA' may not be set to write' } ] } 
+2024-12-16 14:35:17,169 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:35:17,170 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:35:17,170 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:35:17,336 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:35:17,337 auth.py INFO : Getting group details.
+2024-12-16 14:35:20,021 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_RECOVERY_SHELL', 'name': 'Recovery Shell', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_RESTORE', 'name': 'Restore', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SWIFT', 'name': 'Swift', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:35:20,069 role.py ERROR : Create role with failed with error:  { errors : [ { code : AEC_BAD_REQUEST , message : Privilege 'ISI_PRIV_RECOVERY_SHELL' may not be set to write' } ] } 
+2024-12-16 14:35:42,666 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:35:42,667 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:35:42,667 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:35:42,837 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:35:42,837 auth.py INFO : Getting group details.
+2024-12-16 14:35:45,374 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_RESTORE', 'name': 'Restore', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SWIFT', 'name': 'Swift', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:35:45,420 role.py ERROR : Create role with failed with error:  { errors : [ { code : AEC_BAD_REQUEST , message : Privilege 'ISI_PRIV_IFS_RESTORE' may not be set to write' } ] } 
+2024-12-16 14:36:18,295 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:36:18,296 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:36:18,296 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:36:18,447 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:36:18,448 auth.py INFO : Getting group details.
+2024-12-16 14:36:21,014 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SWIFT', 'name': 'Swift', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:36:21,059 role.py ERROR : Create role with failed with error:  { errors : [ { code : AEC_BAD_REQUEST , message : Privilege 'ISI_PRIV_SYS_SHUTDOWN' may not be set to write' } ] } 
+2024-12-16 14:36:57,700 powerscale_base.py INFO : Got python SDK instance for provisioning on PowerScale
+2024-12-16 14:36:57,701 powerscale_base.py INFO : Check Mode Flag: False
+2024-12-16 14:36:57,702 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:36:57,899 role.py INFO : Role Corp_NAS_Admins status is 404
+2024-12-16 14:36:57,899 auth.py INFO : Getting group details.
+2024-12-16 14:37:00,662 role.py INFO : Creating Role with parameters: {'name': 'Corp_NAS_Admins', 'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'privileges': [{'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'r'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}]})
+2024-12-16 14:37:01,595 role.py INFO : reponse from array: {'id': 'Corp_NAS_Admins'})
+2024-12-16 14:37:01,595 role.py INFO : Getting Role details Corp_NAS_Admins
+2024-12-16 14:37:01,705 role.py INFO : Role details are: {'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'name': 'Corp_NAS_Admins', 'privileges': [{'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}], 'id': 'Corp_NAS_Admins'}
+2024-12-16 14:37:01,706 role.py INFO : Successfully created auth role with details {'description': 'Custom priviledges for the company NAS administrators', 'members': [{'id': 'GID:2222', 'name': 'NAS_Admins', 'type': 'group'}], 'name': 'Corp_NAS_Admins', 'privileges': [{'id': 'ISI_PRIV_LOGIN_CONSOLE', 'name': 'Console', 'permission': 'r'}, {'id': 'ISI_PRIV_LOGIN_PAPI', 'name': 'Platform API', 'permission': 'r'}, {'id': 'ISI_PRIV_LOGIN_SSH', 'name': 'SSH', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_SHUTDOWN', 'name': 'Shutdown', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_SUPPORT', 'name': 'Support', 'permission': 'r'}, {'id': 'ISI_PRIV_SYS_TIME', 'name': 'Time', 'permission': 'w'}, {'id': 'ISI_PRIV_SYS_UPGRADE', 'name': 'Upgrade', 'permission': 'w'}, {'id': 'ISI_PRIV_AUTH', 'name': 'Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_RESTRICTED_AUTH', 'name': 'Restricted Auth', 'permission': 'w'}, {'id': 'ISI_PRIV_ROLE', 'name': 'Privilege', 'permission': 'w'}, {'id': 'ISI_PRIV_ANTIVIRUS', 'name': 'Antivirus', 'permission': 'w'}, {'id': 'ISI_PRIV_AUDIT', 'name': 'Audit', 'permission': 'w'}, {'id': 'ISI_PRIV_CERTIFICATE', 'name': 'Certificate', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS', 'name': 'CloudPool', 'permission': 'w'}, {'id': 'ISI_PRIV_CLOUDPOOLS_SETTINGS', 'name': 'Settings', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER', 'name': 'Cluster', 'permission': 'w'}, {'id': 'ISI_PRIV_CLUSTER_MODE', 'name': 'Cluster Mode', 'permission': 'w'}, {'id': 'ISI_PRIV_CONFIGURATION', 'name': 'Configuration', 'permission': 'w'}, {'id': 'ISI_PRIV_DATAMOVER', 'name': 'DataMover', 'permission': 'w'}, {'id': 'ISI_PRIV_DEVICES', 'name': 'Devices', 'permission': 'w'}, {'id': 'ISI_PRIV_EVENT', 'name': 'Event', 'permission': 'w'}, {'id': 'ISI_PRIV_FILE_FILTER', 'name': 'File Filtering', 'permission': 'w'}, {'id': 'ISI_PRIV_FIREWALL', 'name': 'Firewall', 'permission': 'w'}, {'id': 'ISI_PRIV_FTP', 'name': 'FTP', 'permission': 'w'}, {'id': 'ISI_PRIV_GET_SET', 'name': 'Configure File Metadata', 'permission': 'r'}, {'id': 'ISI_PRIV_HARDENING', 'name': 'Hardening', 'permission': 'w'}, {'id': 'ISI_PRIV_HDFS', 'name': 'HDFS', 'permission': 'w'}, {'id': 'ISI_PRIV_HTTP', 'name': 'HTTP', 'permission': 'w'}, {'id': 'ISI_PRIV_IPMI', 'name': 'IPMI', 'permission': 'w'}, {'id': 'ISI_PRIV_JOB_ENGINE', 'name': 'Job Engine', 'permission': 'w'}, {'id': 'ISI_PRIV_KEY_MANAGER', 'name': 'Key Management', 'permission': 'w'}, {'id': 'ISI_PRIV_LICENSE', 'name': 'License', 'permission': 'w'}, {'id': 'ISI_PRIV_MONITORING', 'name': 'Monitoring', 'permission': 'r'}, {'id': 'ISI_PRIV_NDMP', 'name': 'NDMP', 'permission': 'w'}, {'id': 'ISI_PRIV_NETWORK', 'name': 'Network', 'permission': 'w'}, {'id': 'ISI_PRIV_NFS', 'name': 'NFS', 'permission': 'w'}, {'id': 'ISI_PRIV_NTP', 'name': 'NTP', 'permission': 'w'}, {'id': 'ISI_PRIV_PAPI_CONFIG', 'name': 'Configure Platform API', 'permission': 'w'}, {'id': 'ISI_PRIV_PERFORMANCE', 'name': 'Performance', 'permission': 'w'}, {'id': 'ISI_PRIV_QUOTA', 'name': 'Quota', 'permission': 'w'}, {'id': 'ISI_PRIV_REMOTE_SUPPORT', 'name': 'Remote Support', 'permission': 'w'}, {'id': 'ISI_PRIV_S3', 'name': 'S3', 'permission': 'w'}, {'id': 'ISI_PRIV_SMARTPOOLS', 'name': 'SmartPools', 'permission': 'w'}, {'id': 'ISI_PRIV_SMB', 'name': 'SMB', 'permission': 'w'}, {'id': 'ISI_PRIV_SNAPSHOT', 'name': 'Snapshot', 'permission': 'w'}, {'id': 'ISI_PRIV_SNMP', 'name': 'SNMP', 'permission': 'w'}, {'id': 'ISI_PRIV_STATISTICS', 'name': 'Statistics', 'permission': 'w'}, {'id': 'ISI_PRIV_SYNCIQ', 'name': 'SyncIQ', 'permission': 'w'}, {'id': 'ISI_PRIV_VCENTER', 'name': 'IFV Access', 'permission': 'w'}, {'id': 'ISI_PRIV_WORM', 'name': 'WORM', 'permission': 'w'}, {'id': 'ISI_PRIV_IFS_WORM_DELETE', 'name': 'Privileged Delete', 'permission': 'w'}, {'id': 'ISI_PRIV_ESRS_DOWNLOAD', 'name': 'ESRS Downloads Access', 'permission': 'w'}, {'id': 'ISI_PRIV_NS_TRAVERSE', 'name': 'Namespace Traverse', 'permission': 'r'}, {'id': 'ISI_PRIV_NS_IFS_ACCESS', 'name': 'Namespace Access', 'permission': 'r'}], 'id': 'Corp_NAS_Admins'}.
