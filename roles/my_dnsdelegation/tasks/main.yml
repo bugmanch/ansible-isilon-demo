@@ -1,0 +1,10 @@
+---
+
+- name: Set the DNS delegation
+  community.windows.win_dns_record:
+    name: "{{ item.az_ippool.name }}"
+    state: present
+    type: "NS"
+    values:
+      - "tbs-isilona-sip.tbsvlab.lab"
+    zone: "{{ ad_domain_name }}"

@@ -1,0 +1,17 @@
+all:
+  hosts:
+    tbs-isilona-1:
+      ansible_connection: paramiko
+      # ansible_host: 192.168.1.61
+      ansible_user: administrator
+      ansible_password: # Your encrypted Powerscale password goes here
+  children:
+    windows:
+      hosts:
+        tbs-winsrv01:
+      vars:
+        ansible_connection: winrm
+        ansible_winrm_transport: kerberos
+        ansible_winrm_server_cert_validation: ignore
+        ansible_user: windows_administrator
+        ansible_password: # Your encrypted Windows administrator password goes here

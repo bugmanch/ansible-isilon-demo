@@ -1,5 +1,17 @@
 ---
 
+- name: Test Ping
+  gather_facts: false
+  hosts: tbs-isilona
+  vars:
+  collections:
+  - dellemc.powerscale
+
+  tasks:
+  - name: ping
+    ping:
+
+
 - name: Isilon Base Configuration
   gather_facts: false
   hosts: localhost

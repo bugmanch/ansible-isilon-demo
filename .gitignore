@@ -3,3 +3,4 @@ ansible_powerscale.log
 test-list.yml
 vars/vlab*
 .venv
+hosts
