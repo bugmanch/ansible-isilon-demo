@@ -1,17 +1,5 @@
 ---
 
-- name: Test Ping
-  gather_facts: false
-  hosts: tbs-isilona
-  vars:
-  collections:
-  - dellemc.powerscale
-
-  tasks:
-  - name: ping
-    ping:
-
-
 - name: Isilon Base Configuration
   gather_facts: false
   hosts: localhost
@@ -90,15 +78,15 @@
           ifaces: "{{ ifaces }}"
           iface_state: "add"
         
-    - name: Configure NTP Sources
-      dellemc.powerscale.settings:
-        onefs_host: "{{ pscale_host }}"
-        api_user: "{{ pscale_user }}"
-        api_password: "{{ pscale_password }}"
-        verify_ssl: "{{ verify_ssl }}"
+    # - name: Configure NTP Sources
+    #   dellemc.powerscale.settings:
+    #     onefs_host: "{{ pscale_host }}"
+    #     api_user: "{{ pscale_user }}"
+    #     api_password: "{{ pscale_password }}"
+    #     verify_ssl: "{{ verify_ssl }}"
         
-        ntp_servers: "{{ ntp_servers }}"
-        state: "present"
+    #     ntp_servers: "{{ ntp_servers }}"
+    #     state: "present"
 
     - name: Configure Active Directory integration
       dellemc.powerscale.ads:
@@ -299,10 +287,42 @@
           permission: "w"
           state: "present"
 
-
         members:
           - name: "NAS_Admins"
             type: "group"
             provider_type: "local"
             state: "present"
+        state: "present"
+
+    - name: "Remove default ifs$ SMB share"
+      dellemc.powerscale.smb:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        access_zone: "System"
+        share_name: "ifs$"
+        state: "absent"
+
+    - name: "Create Administrative c$ SMB share"
+      dellemc.powerscale.smb:
+        onefs_host: "{{ pscale_host }}"
+        api_user: "{{ pscale_user }}"
+        api_password: "{{pscale_password }}"
+        verify_ssl: "{{ verify_ssl }}"
+
+        access_zone: "System"
+        share_name: "c$"
+        path: "/ifs"
+        run_as_root:
+          - name: "Administrators"
+            type: "group"
+            provider_type: "local"
+        permissions:
+          # - wellknown: "everyone"
+          #   permission: "read"
+          #   permission_type: "allow"
+          #   state: "absent"
+
         state: "present"

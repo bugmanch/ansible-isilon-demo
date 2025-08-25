@@ -1,6 +1,9 @@
-vlab_vault_passwd.txt
+*passwd.txt
 ansible_powerscale.log
 test-list.yml
-vars/vlab*
+vars/*
+venv
+!vars/*example.yaml
 .venv
 hosts
+*.log
