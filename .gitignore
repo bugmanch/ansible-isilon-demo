@@ -1,6 +1,5 @@
 *passwd.txt
 ansible_powerscale.log
-test-list.yml
 vars/*
 venv
 !vars/*example.yaml
