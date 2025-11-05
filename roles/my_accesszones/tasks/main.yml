@@ -15,7 +15,8 @@
     auth_providers:
       - provider_name: "System"
         provider_type: "file"
-      - provider_name: "TBSVLAB.LAB"
+#      - provider_name: "{{ item.az_ad_provider }}"
+      - provider_name: "CLAIRVUE.LAB"
         provider_type: "ads"
     state: "present"
 
@@ -60,12 +61,13 @@
     group_name: "Administrators"
     provider_type: "local"
     users:
-      - user_name: "TBSVLAB\\thomas-a"
+      - user_name: "{{ item.az_ad_administrator }}"
       # Looks like adding a domain group to a local group isn't implemented yet...
       #- user_name: "TBSVLAB\\nas-admins"
     user_state: "present-in-group"
     state: "present"
   register: group
+  ignore_errors: true
 
 - name: Debug group
   ansible.builtin.debug:

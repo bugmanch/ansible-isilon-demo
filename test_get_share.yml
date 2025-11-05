@@ -8,6 +8,10 @@
   - dellemc.powerscale
 
   tasks:
+    - name: Debug Hostname
+      ansible.builtin.debug:
+        msg: "Host: {{ pscale_host }}"
+
     - name: "Get Administrative c$ SMB share"
       dellemc.powerscale.smb:
         onefs_host: "{{ pscale_host }}"
@@ -32,7 +36,7 @@
       register: smb_share
 
 - name: "Test Delete permission"
-  hosts: pscale-nodes
+  hosts: pscale_nodes
 
   tasks:
     - name: "Remove default Everyone:read permission from c$ SMB share"

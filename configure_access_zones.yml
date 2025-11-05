@@ -13,13 +13,13 @@
         name: my_accesszones
       loop: "{{ my_access_zones }}"
 
-- name: Windows DNS AccessZone Delegation
-  gather_facts: false
-  hosts: tbs-winsrv01
-  vars:
+# - name: Windows DNS AccessZone Delegation
+#   gather_facts: false
+#   hosts: tbs-winsrv01
+#   vars:
 
-  tasks:
-    - name: Configure Access Zone
-      include_role:
-        name: my_dnsdelegation
-      loop: "{{ my_access_zones }}"
+#   tasks:
+#     - name: Configure Access Zone
+#       include_role:
+#         name: my_dnsdelegation
+#       loop: "{{ my_access_zones }}"

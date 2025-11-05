@@ -62,6 +62,9 @@
         ifaces: "{{ ifaces | default ([]) + [{'lnn': item, 'iface': ippool_mgmt.ifaces_range.iface }]}}"
       loop: "{{ ippool_mgmt.ifaces_range.lnn }}"
 
+    # Watch out: this task will fail if HTTP auth_basic is disabled!
+    # Ensure it is enabled first by running isi_gconfig -t web-config auth_basic=true
+
     - name: Configure Management IP Pool
       dellemc.powerscale.networkpool:
         onefs_host: "{{ pscale_host }}"
@@ -77,6 +80,7 @@
           ranges: "{{ ippool_mgmt.ranges }}"
           ifaces: "{{ ifaces }}"
           iface_state: "add"
+      ignore_errors: true
         
     # - name: Configure NTP Sources
     #   dellemc.powerscale.settings:
@@ -293,6 +297,18 @@
             provider_type: "local"
             state: "present"
         state: "present"
+
+    # - name: Update email settings
+    #   dellemc.powerscale.settings:
+    #     onefs_host: "{{ pscale_host }}"
+    #     api_user: "{{ pscale_user }}"
+    #     api_password: "{{pscale_password }}"
+    #     verify_ssl: "{{ verify_ssl }}"
+
+    #     state: "present"
+    #     mail_relay: "{{ smtp_server }}"
+    #     mail_sender: "{{ mail_sender }}"
+    #     mail_subject: "{{ mail_subject }}"
 
     - name: "Remove default ifs$ SMB share"
       dellemc.powerscale.smb:
